@@ -5,7 +5,7 @@ class CheckoutPage:
     def __init__(self, driver):
         self.driver = driver
 
-    checkoutButton = (By.XPATH, "//a[@class = 'nav-link btn btn-primary']")
+    confirmCheckoutButton = (By.XPATH, "//button[@class='btn btn-success']")
 
-    def getCheckoutButton(self):
-        return self.driver.find_element(*CheckoutPage.checkoutButton)
+    def getConfirmCheckoutButton(self):
+        return self.driver.find_element(*CheckoutPage.confirmCheckoutButton)
