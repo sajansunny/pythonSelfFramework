@@ -15,27 +15,20 @@ class TestOne(BaseClass):
 
     def test_endToEnd(self):
         home_page = HomePage(self.driver)
-        home_page.shop_link().click()
-        shop_page = ShopPage(self.driver)
+        shop_page = home_page.shop_link()
         product_names = shop_page.getCardTitles()
-        # checkout_page = CheckoutPage(self.driver)
-        checkout_button = shop_page.getCheckoutButton()
+
         i = -1
         for product_name in product_names:
             i = i+1
             if product_name.text == "Blackberry":
                 shop_page.getFooterButtons()[i].click()
                 break
-        checkout_button.click()
 
-        confirm_checkout_page = CheckoutPage(self.driver)
-        confirm_checkout_page.getConfirmCheckoutButton().click()
-
-        confirm_purchase_page = ConfirmPage(self.driver)
+        confirm_checkout_page = shop_page.getCheckoutButton()
+        confirm_purchase_page = confirm_checkout_page.getConfirmCheckoutButton()
         confirm_purchase_page.getCountryTextbox().send_keys("Ind")
-        wait = WebDriverWait(self.driver, 7)
-        wait.until(expected_conditions.presence_of_element_located(ConfirmPage.indiaOption))
-        confirm_purchase_page.getIndiaOption().click()
+        self.verifyLinkPresence("India")
         confirm_checkbox = confirm_purchase_page.getConfirmCheckbox()
         self.driver.execute_script("arguments[0].click();", confirm_checkbox)
         confirm_purchase_page.getPurchaseButton().click()
