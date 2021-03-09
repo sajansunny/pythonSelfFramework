@@ -1,0 +1,14 @@
+2021-03-09 06:15:35,281 : INFO : test_endToEnd : Getting product names..
+2021-03-09 06:15:35,560 : INFO : test_endToEnd : Product 'Blackberry' selected
+2021-03-09 06:15:36,945 : INFO : test_endToEnd : Entered the text as 'Ind'
+2021-03-09 06:15:42,409 : INFO : test_endToEnd : User confirmed the purchase
+2021-03-09 06:15:42,505 : INFO : test_endToEnd : Successfully purchased
+2021-03-09 06:15:52,796 : INFO : test_formSubmission : Name is Sajan
+2021-03-09 06:15:53,799 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.
+2021-03-09 06:15:54,527 : INFO : test_formSubmission : Name is Shelmi
+2021-03-09 06:15:54,527 : INFO : test_formSubmission : Name is Shelmi
+2021-03-09 06:15:55,884 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.
+2021-03-09 06:15:55,884 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.

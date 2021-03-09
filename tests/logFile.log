@@ -1,0 +1,23 @@
+2021-03-09 05:53:48,193 : INFO : test_endToEnd : Getting product names..
+2021-03-09 05:53:48,553 : INFO : test_endToEnd : Product 'Blackberry' selected
+2021-03-09 05:53:49,299 : INFO : test_endToEnd : Entered the text as 'Ind'
+2021-03-09 05:53:54,747 : INFO : test_endToEnd : User confirmed the purchase
+2021-03-09 05:53:54,851 : INFO : test_endToEnd : Successfully purchased
+2021-03-09 06:02:28,301 : INFO : test_formSubmission : Submitted all the details
+2021-03-09 06:02:28,381 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.
+2021-03-09 06:02:30,492 : INFO : test_formSubmission : Submitted all the details
+2021-03-09 06:02:30,492 : INFO : test_formSubmission : Submitted all the details
+2021-03-09 06:02:30,580 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.
+2021-03-09 06:02:30,580 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.
+2021-03-09 06:10:31,994 : INFO : test_formSubmission : Name is Sajan
+2021-03-09 06:10:33,090 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.
+2021-03-09 06:10:33,842 : INFO : test_formSubmission : Name is Shelmi
+2021-03-09 06:10:33,842 : INFO : test_formSubmission : Name is Shelmi
+2021-03-09 06:10:35,257 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.
+2021-03-09 06:10:35,257 : INFO : test_formSubmission : ×
+Success! The Form has been submitted successfully!.
